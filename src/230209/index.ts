@@ -19,7 +19,7 @@ function createItem(todo: TodoData) {}
 export function create(content: string) {}
 
 /**
- * 할 일을 모두 삭제합니다.
+ * 할 일을 모두 조회합니다.
  */
 export function readAll() {}
 
@@ -31,12 +31,14 @@ export function readAt(id: number) {}
 
 /**
  * id를 기반으로 할 일을 수정합니다.
+ * @param {id} id 아이디
  * @param {string} content 내용
  * @param {boolean} isCompleted 완료여부
  * @param {string} category 카테고리
  * @param {string[]} tags 태그들
  */
 export function updateAt(
+  id: number,
   content: string,
   isCompleted: boolean,
   category: string,
