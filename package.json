@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "type": "commonjs",
   "scripts": {
-    "start": "node ./src/index.ts",
+    "start1": "ts-node-esm ./src/230209/index.ts",
+    "start2": "ts-node-esm ./src/230213/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
