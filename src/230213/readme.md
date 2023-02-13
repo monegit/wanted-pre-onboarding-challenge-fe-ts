@@ -72,7 +72,7 @@ interface deleteTodoTags {
 
 > 제가 프론트엔드에 입문한지 얼마 되지 않아서 조금 공부 해보니 제가 이해를 잘못 한거였어요...
 >
-> 아마 의도하신게 [interface](https://github.com/monegit/wanted-pre-onboarding-challenge-fe-study/blob/main/src/230213/interface.ts) 가 아닐까 싶어요
+> 아마 의도하신게 [next](https://github.com/monegit/wanted-pre-onboarding-challenge-fe-study/blob/main/src/230213/next.ts) 가 아닐까 싶어요
 
 ### 💡 update 할때는 id가 필요해 보여요!
 ```ts
